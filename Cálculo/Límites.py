@@ -80,5 +80,6 @@ def calcular_y_graficar_limite(expresion_str, variable_str, punto, direccion='am
         print("Error al generar la gráfica:", e)
 
 # Ejemplo de uso
+    # Dentro de las primeras comillas "", se coloca la función, luego, en las siguientes comillas, se coloca la variable y posteriormente se pone hacia donde tiende el límite
 calcular_y_graficar_limite("(x+ sqrt(x) -2)/(1-x**2)", "x", 1)
 calcular_y_graficar_limite("(x+ sqrt(x) -2)/(1-x**2)", "x", 1, direccion='derecha')
