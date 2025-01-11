@@ -82,5 +82,4 @@ def calcular_y_graficar_limite(expresion_str, variable_str, punto, direccion='am
 # Ejemplo de uso
     # Dentro de las primeras comillas "", se coloca la función, luego, en las siguientes comillas, se coloca la variable y posteriormente se pone hacia donde tiende el límite
 calcular_y_graficar_limite("x * sin(1/x)", "x", 0)
-calcular_y_graficar_limite("x * sin(1/x)", "x", 0, direccion='derecha')
-calcular_y_graficar_limite("x * sin(1/x)", "x", 0, direccion='izquierda')
+
