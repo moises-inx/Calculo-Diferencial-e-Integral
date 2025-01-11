@@ -56,5 +56,6 @@ def calcular_y_graficar_limite(funcion_str, variable_str, punto):
     plt.legend()
     plt.grid(alpha=0.3)
     plt.show()
-    
+
+# Ejemplo de uso
 calcular_y_graficar_limite("x*abs(x)", "x", 0)
